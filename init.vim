@@ -12,6 +12,11 @@ call plug#begin()
  Plug 'mfussenegger/nvim-dap'
  Plug 'jiangmiao/auto-pairs'
  Plug 'airblade/vim-gitgutter'
+ Plug 'fwcd/kotlin-language-server'
+ Plug 'nvim-lua/plenary.nvim'
+ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.3' }
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 set showmatch               " show matching 
